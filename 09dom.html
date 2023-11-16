@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--DOM combines JS and HTMl and it gives JS full control of the webpage-->
+    <title>DOM Data Object Model</title>
+  </head>
+  <body>
+    <button>hello</button>
+    <button class="js-button">Second button</button>
+    <script>
+      
+      /*//document is an object here and .body is a property inside it 
+      //body is an object and.innerHTMl is a property of body obj
+      document.body.innerHTML = 'hello';
+      document.title = 'Good Job!';
+      //document object represents the models of a webpage and hence called DOM*/
+
+      /*console.log(document.title);
+
+      console.log(document.body); //having HTML elements inside JavaScript
+      console.log(typeof document.body);
+      document.body.innerHTML = '<button>Good Job!</button>';*/
+
+      console.log(document.querySelector('button').innerHTML);
+      document.querySelector('button').innerHTML = 'Changed';
+
+      console.log(document.querySelector('.js-button'));
+    </script>
+  </body>
+</html>
+

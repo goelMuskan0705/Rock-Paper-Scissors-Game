@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--head element contains info and styling about the page-->
+    <title>HTML CSS review</title>
+    <style>
+      /*left=CSS property, right=CSS value*/
+     .red-button{
+      background-color: red;
+      color: white;
+      border:none;
+     }
+     .Yellow-button{
+      background-color: yellow;
+      color: white;
+      border:none;
+     }
+    </style>
+  </head>
+  <body>
+   
+    <!--title=attribute_name, tooltip=attribute_value (what will be displayed when we hover over the text)-->
+    <button title="tooltip" class="red-button" onclick="alert('Good Job!');">
+      hello
+    </button>
+    
+    <p>
+      paragraph of <button class="Yellow-button"> hello </button>text
+    </p>
+
+    <!--there are 2 ways to load javaScript element in html file.1) <script>[this will run first] 2)onclick=""[this will run when a particular element is clicked]-->
+    <script>
+      //comments in javaScript.
+      /*multi-line comment*/
+      // this code pop-ups the msg. alert('hello');
+      console.log(2+2);
+      console.log('some' + 'text');
+    </script>
+    </body>
+</html>
+

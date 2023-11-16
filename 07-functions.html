@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Functions lets us to reuse the code and make updations easy-->
+    <title>Functions</title>
+  </head>
+  <body>
+    <script>
+      //this only creates the fn .It do not run the code inside it.
+     /*function function1(){
+      console.log('hello');
+      console.log(2+2);
+     }
+     function1();
+     function1();*/
+
+
+     //Parameters [opposite to return]--> it puts a value into a function
+     //0.1 is set as the default value
+     function calculateTax(cost, taxPercent = 0.1){
+      console.log(cost * taxPercent);
+     }
+     calculateTax(2000 , 0.2);
+     calculateTax(5000 );
+
+    </script>
+  </body>
+</html>
+
